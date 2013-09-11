@@ -18,17 +18,19 @@
 	<div data-role="content">	
 		<div class="content-primary">
 		<!--<form action="gettable" method="get"> -->
+           <h1> </h1>
            <div data-role="fieldcontain">
 	         <label for="name">Mesa Numero:</label>
 	         <input type="text" name="ID" id="ID" value=""  />
 		   </div>		
 		<a href="#tabledetails" data-role="button" data-icon="search">Ver Conta</a>
-		<a href="#popup" id="popupb" data-role="button"  data-rel="dialog" data-transition="pop" data-icon="star">Config</a>
+		<a href="#popup" id="popupb1" data-role="button"  data-rel="dialog" data-transition="pop" data-icon="star">Config</a>
 		<!-- <button type="submit" name="submit" value="submit" data-theme="b">Submit</button> -->
 		<!--</form>-->
 		</div>
 	</div><!-- /content -->
 	<div data-role="footer" data-theme="d">
+	       <a href="#popup" id="popupb" data-role="button"  data-rel="dialog" data-transition="pop" data-icon="star">Config</a>
 		<h4>Gesrest II</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->
@@ -44,7 +46,7 @@
 
 	<div data-role="content" >	
 	    <h2>Total
-	 <label id="total">0.00€</label>
+	 <label id="total">0.00ï¿½</label>
      </h2>
 	 <ul id="conta" data-role="listview" data-filter="false"></ul>
 
@@ -67,12 +69,12 @@
 	</div><!-- /header -->
 
 	<div data-role="content" data-theme="d">	
-		<h2>Popup</h2>
+		<h2>Introduza o servidor, exemplo http://192.168.1.1:8801/</h2>
 		<div data-role="fieldcontain">
 	         <label for="Address">Servidor:</label>
 	         <input type="text" name="Address" id="Address" value=""  />
 		  </div>
-		 <p><a href="#init" id="SaveAddress" data-role="button" data-icon="back" onclick="doSave(); return false" rel="external">Voltar</a></p>	
+		 <p><a href="#init" id="SaveAddress" data-role="button" data-icon="back" onclick="doSave(); return false;" rel="external">Voltar</a></p>	
 	</div><!-- /content -->
 	
 	<div data-role="footer">
