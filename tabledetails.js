@@ -1,4 +1,3 @@
-
 var address;
 var tabledetails;
 
@@ -23,7 +22,7 @@ function getTableDetail() {
 		//  $.each(tabledetails.list, function(i,detalhe){
 		//	$('#conta').append('<li id="' + i + '">' + detalhe.C2 + '</li>');
 			//alert(detalhe.Mesa);
-			//$("#conta").append("Qt:"+detalhe.C1+"<br>"+"Descrição:"+detalhe.C2+"<br>"+"Valor:"+detalhe.C3);
+			//$("#conta").append("Qt:"+detalhe.C1+"<br>"+"Descriï¿½ï¿½o:"+detalhe.C2+"<br>"+"Valor:"+detalhe.C3);
         //  });		
 		  $('#conta').listview('refresh');
         });	
@@ -33,7 +32,7 @@ $(document).ready(function(){
     loadSettings();
 	if (address=="")
 		{
-		address="http://10.227.1.88:8081";
+		address="http://10.227.1.176:8081";
 		}
 	 $('#Address').val(address);
 });
