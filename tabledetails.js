@@ -29,7 +29,7 @@ function getTableDetail() {
         //  });		
 		  $('#conta').listview('refresh');
         }
-        $('input[id=ID').val('');
+        $('input[id=ID]').val('');
         );	
 };
 
