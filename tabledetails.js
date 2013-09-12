@@ -29,7 +29,7 @@ function getTableDetail() {
         //  });		
 		  $('#conta').listview('refresh');
         }
-        $('input[id=ID').html("");
+        //$('input[id=ID').html("");
         );	
 };
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
     loadSettings();
 	if (address=="")
 		{
-		address="http://10.227.1.176:8081";
+		address="http://10.227.1.176:8801";
 		}
 	 $('#Address').val(address);
 });
