@@ -7,7 +7,7 @@ $('#tabledetails').bind('pageshow', function(event) {
 
 function getTableDetail() {
 	$('#conta li').remove();
-	 $('#mesa').html(ID);
+	 $('#mesa').html($('input[id=ID]').val());
         $('#total').html("Sem registos");
 	$.getJSON(address+"gettable&ID="+$('input[id=ID]').val()+"&submit=submit",
         function(data){
