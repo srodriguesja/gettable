@@ -9,6 +9,7 @@ function getTableDetail() {
 	$('#conta li').remove();
 	 $('#mesa').html($('input[id=ID]').val());
         $('#total').html("Sem registos");
+        
 	$.getJSON(address+"gettable&ID="+$('input[id=ID]').val()+"&submit=submit",
         function(data){
 		// $('#Total').append('data.Total');
@@ -27,7 +28,9 @@ function getTableDetail() {
 			//$("#conta").append("Qt:"+detalhe.C1+"<br>"+"Descri��o:"+detalhe.C2+"<br>"+"Valor:"+detalhe.C3);
         //  });		
 		  $('#conta').listview('refresh');
-        });	
+        }
+        $('input[id=ID').html("");
+        );	
 };
 
 $(document).ready(function(){
