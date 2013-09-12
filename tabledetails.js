@@ -28,8 +28,9 @@ function getTableDetail() {
 			//$("#conta").append("Qt:"+detalhe.C1+"<br>"+"Descri��o:"+detalhe.C2+"<br>"+"Valor:"+detalhe.C3);
         //  });		
 		  $('#conta').listview('refresh');
+		  $('#ID').val('');
         }
-        $('#ID').val('');
+       
         );	
 };
 
